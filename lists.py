@@ -7,5 +7,4 @@ print(my_list)
 print(sum(my_list))
 
 
-
 my_tuple = (1)
