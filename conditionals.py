@@ -4,3 +4,14 @@ i_am_test = 'I am really a text'
 
 if i_am_true == True:
     print('I am really a test')
+
+if i_am_false is not True:
+    print('I am really a test')
+
+else:
+    print('I am elif')
+
+
+if "really" in i_am_test:
+    print("{} is in the text".format("really"))
+
