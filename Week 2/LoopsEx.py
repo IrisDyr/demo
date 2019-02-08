@@ -1,8 +1,16 @@
 
 
-def odd_even(number):
-    mylist = [1,7,3,8,4,2]
-    for  number in mylist:
-        if number % 2 == 0:
-            print("{} is even".Format(number))
+ def my_second():
+     my_name = input("What is your name")
 
+     cont = True
+    while cont is True:
+         for letter in my_name:
+            print letter
+    
+        decision = input("Do you want to continue?")
+
+        if decision =="n":  
+            cont = False
+
+my_second()
